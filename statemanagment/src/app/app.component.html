@@ -1,0 +1,22 @@
+<section class="app-component-container">
+
+  <section class="recently-modified-list-container">
+    Hai
+  </section>
+
+  <section class="registration-form-container">
+    <form class="comments-form" #f="ngForm" (ngSubmit)="onSubmit(f)">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label> Name </mat-label>
+        <input matInput placeholder="Enter Your Name" ngModel name="name">
+      </mat-form-field>
+
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label> Feedback </mat-label>
+        <textarea matInput placeholder="Feedback" ngModel name="feedback"></textarea>
+      </mat-form-field>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</section>

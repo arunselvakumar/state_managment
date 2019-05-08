@@ -1,0 +1,18 @@
+.app-component-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
+}
+
+.registration-form-container {
+  padding: 50px;
+  background: gray;
+}
+
+.comments-form {
+  width: 100%;
+}
+
+.full-width {
+  width: 80%;
+}
